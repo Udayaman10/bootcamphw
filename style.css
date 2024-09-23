@@ -1,0 +1,30 @@
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+.main {
+    z-index: 1;
+    height: 95vh;
+    width: 95vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.bulb {
+    height: 100vh;
+    width: 100vw;
+    background: url('Off.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bulb:hover {
+    background: url('on.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
